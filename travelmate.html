@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Open+Sans:400,700" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="setup.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="page">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" id="HomeScroll">Home</a></li>
+                        <li><a href="index.html#about-page-catcher" id="AboutScroll">About</a></li>
+                        <li><a href="index.html#project-page-catcher" id="ProjectsScroll">Projects</a></li>
+                        <li><a href="index.html#contact" id="ContactScroll">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="intro" class="travel-intro">
+                <div id="intro-mask" class="travel-mask"></div>
+                <div id="intro-box" class="project-title-box">
+                    <h1>Travelmate</h1>
+                    <h2>jQuery Project using JSON storage</h2>
+                </div><!-- / intro box -->
+            </div><!-- / remix intro -->
+
+            
+            <div class="page-content">
+                <div class="project-story">
+                    <div class="holder">
+                        <h2>About Travelmate</h2>
+                        <p>Travelmate was my first project using a mixture of Javascript, jQuery, and JSON. It was a travel app to help clients find a place to stay within New Zealand.</p>
+                        <div class="row">
+                            <div class="column column-6">
+                                <p>The user would input a city in New Zealand, add in the check-in and check-out days, and input how many guests they had with them. From this, the site would search through the JSON file and determine the places that fit within the fiter the user specified. Once the site had its list of viable places, it would display them.</p>
+                                <p>This site used primarily a combination of jQuery and used a JSON file for all the information stored about each accomodation such as if it was a hotel or motel, the price of rooms, how many guests were allowed, and and additional services like a gym, parking, or breakfast.</p>
+                            </div><!-- / column -->
+                            <div class="column column-6">
+                                <img src="img/travelmate/travelmate2.jpg" alt="Travelmate Home Page">
+                            </div><!-- / column -->
+                        </div><!-- / row -->
+                        <div class="row">
+                            <div class="column column-6">
+                                <img src="img/travelmate/travelmate3.jpg" alt="Travelmate Hotel Search Page">
+                            </div><!-- / column -->
+                            <div class="column column-6">
+                                <img src="img/travelmate/travelmate4.jpg" alt="Travelmate Details Page">
+                            </div><!-- / column -->
+                        </div><!-- / row -->
+                        <div class="button-container">
+                            <a href="https://github.com/Verstarker/accomodation_proj-master" target="_blank">
+                                <div class="project-github-link">
+                                    <i class="fab fa-github"></i><h3>View the code here</h3>
+                                </div><!-- / github link -->
+                            </a>
+                        </div><!-- / button container -->
+                    </div><!-- / holder -->
+                </div><!-- / project story -->
+
+
+                <footer id="contact">
+                    <div class="holder">
+                        <h2>Contact</h2>
+                        <div class="footer-text">
+                            You can get a hold of me at:
+                        </div><!-- / footer text -->
+                        <h3 class="email-link">
+                            <a href="mailto:hayden.wrathall@gmail.com">Hayden.Wrathall@gmail.com</a>
+                        </h3>
+                        <div class="footer-text">
+                            Or you can find most of my work at:
+                        </div><!-- / footer text -->
+                        <div class="github-link">
+                            <a href="https://github.com/Verstarker" target="_blank">
+                                <i class="fab fa-github"></i><h3>My Github</h3>
+                            </a>
+                        </div><!-- / github link -->
+                    </div><!-- / holder -->
+                </footer><!-- / contact -->
+            </div><!-- / page content -->
+        </div><!-- / page -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    </body>
+</html>
