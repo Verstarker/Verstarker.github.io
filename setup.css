@@ -18,7 +18,8 @@ a,
 .project-github-link,
 .github-link,
 .email-link,
-.project-live-link {
+.project-live-link,
+#intro span a {
   transition: all, .3s, linear
 }
 
