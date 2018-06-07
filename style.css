@@ -144,22 +144,27 @@ header li a {
 
 .home-intro {
     background: url(img/me.jpg) left center;
+    background-size: cover;
 }
 
 .remix-intro {
     background: url(img/remix/remix.PNG);
+    background-size: cover;
 }
 
 .preloved-intro {
     background: url(img/preloved/preloved.jpg);
+    background-size: cover;
 }
 
 .travel-intro {
     background: url(img/travelmate/travelmate.PNG);
+    background-size: cover;
 }
 
 .safehouse-intro {
     background: url(img/safehouse/safehouse.jpg);
+    background-size: cover;
 }
 
 /*
