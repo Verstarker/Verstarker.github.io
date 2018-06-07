@@ -394,6 +394,10 @@ footer i, .project-github-link i, .project-live-link i {
         margin-bottom: 5%;
     }
 
+    #about .about-text {
+        padding: 0;
+    }
+
     #about .work-text {
         padding-bottom: 40px;
         border-bottom: 1px solid #222;
